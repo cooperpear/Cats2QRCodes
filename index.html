@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cats to QR Codes</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+
+<body class="blue-grey lighten-6 ">
+
+    <header class="center-align">
+        <h1 class="#90caf9 blue lighten-3 z-depth-2">Cats To QR Codes!</h1>
+    </header>
+    <container class="content">
+        <div class="row s12">
+            <!-- buttons here with id's for jquery reference -->
+            <div class="col s12 #90caf9 blue lighten-3 center z-depth-2 options-margins">
+                <div class="col s12 #01579b light-blue darken-4 z-depth-2 options-margins">
+                    <button class="btn-large light-blue darken-3 hoverable waves-effect waves-light margins"
+                        id="cat-button"><b>Random
+                            Cat!</b></button>
+                    <form action="#">
+                        <p>
+                            <label>
+                                <input id="animated" type="checkbox" />
+                                <span class="white-text"><b>Animated</b></span>
+                            </label>
+                        </p>
+                    </form>
+                </div>
+                <div class="col s12 #01579b light-blue darken-4 z-depth-2 options-margins">
+                    <button class="btn-large light-blue darken-3 hoverable waves-effect waves-light margins"
+                        id="breed-button"><b>Cat
+                            With Specific Breed!</b></button>
+                    <select id="dropdown" class="margins"></select>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row center historical10"> </div>
+
+        <div class="row #90caf9 blue lighten-3 padding z-depth-2 center">
+            <div class="col s12 l6">
+                <img class="responsive-img z-depth-5 margins" id="cat-image">
+            </div>
+            <div class="col s12 l6">
+                <img class="responsive-img z-depth-5 margins" id="qr-image">
+            </div>
+
+        </div>
+    </container>
+
+
+
+
+
+    <footer class="page-footer center card-panel #90caf9 blue lighten-3 sticky-foot">
+        <div class="container black-text">
+            © 2019 Copyleft Official Cat-to-QR Generator
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
