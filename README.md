@@ -6,12 +6,7 @@ This project was conceived on paper, and moved to a MVP (minimum viable product)
 
 Features: 
 It effectively translates the url of a jpg, png, or gif file into a readable QR code that the end user can scan and regenerate the original image. The user can also choose a particular breed of cat (if they have a favorite). Our application keeps a history of the last 10 images that the user looks up. 
-
-Process hardships:
-we need a visual representation of our build tree as an example of our commit process. 
-
-Getting 
-
+ 
 For future development:
 If we had more time, we would like to have implemented the ability to do an AJAX POST, allowing a user to upload and retrieve pictures of their own cat. 
 
@@ -35,12 +30,6 @@ Our application turns your choice of kitty photos into easy QR codes for alterna
 
 
 ## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 Design team:
 
