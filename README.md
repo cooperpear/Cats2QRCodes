@@ -26,7 +26,7 @@ If we had more time, we would like to have implemented the ability to do an AJAX
 
 ## Installation
 
-To try out our program, simply go to www.https://
+To try out our program, simply go to https://cooperpear.github.io/Cats2QRCodes/
 
 
 ## Usage 
